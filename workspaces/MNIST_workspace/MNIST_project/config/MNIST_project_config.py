@@ -3,9 +3,9 @@
 
 def set_config(c):
     c.input_path                   = "workspaces/MNIST_workspace/data/mnist_combined.npz"
-    c.data_dimension               = 1
+    c.data_dimension               = 786
     c.compression_ratio            = 2.0
-    c.apply_normalization          = True
+    c.apply_normalization          = False
     c.model_name                   = "AE"
     c.model_type                    = "dense"
     c.epochs                       = 5
